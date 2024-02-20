@@ -10,3 +10,5 @@ idioms = {
     "Sheep": ["Pulled", "the", "wool", "over", "his", "eyes"],
     "Lucifer": ["Speak", "of", "the", "devil"],
 }
+for idiom, words in idioms.items():
+    print(f"{idiom}: {' '.join(words)}")

@@ -7,3 +7,6 @@ class Shark:
         self.species = species
         self.date_added = date.today()
         self.swimming = True
+
+    def __str__(self):
+        return f"{self.name} is a {self.species}"
